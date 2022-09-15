@@ -1,0 +1,27 @@
+.advantages-items {
+    display: flex;
+    gap: 30px;
+
+}
+
+.advantages-item-list {
+    flex-basis: calc((100% - 90px)/4);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.advantages-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    height: 120px;
+}
+
+.item-list {
+    line-height: 1.7;
+    color: var(--secondary-text-color);
+}

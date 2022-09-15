@@ -1,0 +1,18 @@
+@import "./utils/_variables";
+@import "./utils/visyally";
+
+@import "./base/common";
+@import "./base/section";
+@import "./base/container";
+
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/advantages";
+@import "./layout/about-section";
+@import "./layout/team-list";
+@import "./layout/content-section";
+@import "./layout/footer-section";
+
+@import "./components/logo";
+@import "./components/social-list";
+@import "./components/title";
