@@ -2,35 +2,33 @@
     color: var(--primary-background-color);
 }
 
-.contact-adress {
+.footer-contact__adress {
     line-height: 1.7;
     color: var(--primary-background-color)
 }
 
-.footer-contact-mail,
-.footer-contact-phone-number {
+.footer-contact__mail,
+.footer-contact__phone-number {
     line-height: 1.7;
     color: rgba(255, 255, 255, 0.6);
     transition: color var(--transition-duration-func);
 }
 
-.footer-contact-phone-number:hover,
-.footer-contact-phone-number:focus,
-.footer-contact-mail:hover,
-.footer-contact-mail:focus {
+.footer-contact__phone-number:hover,
+.footer-contact__phone-number:focus,
+.footer-contact__mail:hover,
+.footer-contact__mail:focus {
     color: var(--accent-color);
 }
 
 .section-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-
 }
 
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
-    margin-right: 0;
 }
 .footer-contact:not(:last-child) {
     margin-bottom: 9px;

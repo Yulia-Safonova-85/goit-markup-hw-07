@@ -3,16 +3,16 @@
     gap: 30px;
 }
 
-.visual-foto-list {
+.title-visual-foto__list {
     flex-basis: calc((100% - 60px)/3);
 
 }
 
-.about-visual-foto {
+.title-visual-foto__about {
     position: relative;
 }
 
-.visual-foto-overlay {
+.title-visual-foto__overlay {
     position: absolute;
     left: 0;
     bottom: 0;

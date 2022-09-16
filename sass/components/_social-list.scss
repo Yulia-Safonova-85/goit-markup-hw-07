@@ -5,18 +5,18 @@
 
 }
 
-.social-list-icon {
+.social-list__icon {
     fill: #AFB1B8;
 
     transition: fill var(--transition-duration-func);
 
-    .social-link:hover &,
-    .social-link:focus & {
+    .social-list__link:hover &,
+    .social-list__link:focus & {
             fill: #FFFFFF;
         }
 }
 
-.social-link {
+.social-list__link {
    @extend %display;
     width: 44px;
     height: 44px;
@@ -29,15 +29,12 @@
             background-color: var(--accent-color);
         }
 }
-
-
-
-.footer-icon {
-    fill: var(--primary-background-color);
+.social-list__social-list__icon_fill_white {
+fill: var(--primary-background-color);
 }
-
-.footer-social-link {
-    background-color: rgba(255, 255, 255, 0.1);
+  
+.social-list__social-list__link_backgroud_dark {
+background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-social-list {
