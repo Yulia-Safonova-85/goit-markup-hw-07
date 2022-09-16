@@ -9,28 +9,28 @@
     fill: #AFB1B8;
 
     transition: fill var(--transition-duration-func);
+
+    .social-link:hover &,
+    .social-link:focus & {
+            fill: #FFFFFF;
+        }
 }
 
 .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   @extend %display;
     width: 44px;
     height: 44px;
     border-radius: 50%;
 
-    transition: background-color var(--transition-duration-func)
+    transition: background-color var(--transition-duration-func);
+
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
-.social-link:hover,
-.social-link:focus {
-    background-color: var(--accent-color);
-}
 
-.social-link:hover .social-list-icon,
-.social-link:focus .social-list-icon {
-    fill: #FFFFFF;
-}
 
 .footer-icon {
     fill: var(--primary-background-color);

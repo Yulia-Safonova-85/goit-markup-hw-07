@@ -18,21 +18,20 @@
     box-sizing: border-box;
 
     transition: border-color var(--transition-duration-func);
-}
 
-.client-list-link:hover,
-.client-list-link:focus {
-    border-color: rgba(33, 150, 243, 1);
+    &:hover,
+    &:focus {
+        border-color: rgba(33, 150, 243, 1);
+        }
 }
-
-.client-list-link:hover .client-logo,
-.client-list-link:focus .client-logo {
-    fill: var(--accent-color);
-}
-
 
 .client-logo {
     fill: #AFB1B8;
 
     transition: fill var(--transition-duration-func);
+
+    .client-list-link:hover &,
+    .client-list-link:focus & {
+        fill: var(--accent-color);
+    }
 }

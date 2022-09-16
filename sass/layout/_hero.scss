@@ -30,3 +30,24 @@
     background-position: center;
     background-color: #C4C4C4;
 }
+
+.modal-open-btn {
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+
+    transition: background-color var(--transition-duration-func);
+
+    &:hover,
+    &:focus {
+        background-color: #188CE8;
+        }
+}
+

@@ -28,14 +28,14 @@
     color: var(--primary-text-color);
 
     transition: color var(--transition-duration-func);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+        }
 }
 
-.link:hover,
-.link:focus,
-.contact-mail:hover,
-.contact-mail:focus {
-    color: var(--accent-color);
-}
+
 
 .site-nav .link.current {
     color: var(--accent-color);
@@ -58,6 +58,11 @@
     color: var(--secondary-text-color);
 
     transition: color var(--transition-duration-func);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
 .icon-contact {
@@ -74,9 +79,10 @@
     color: var(--secondary-text-color);
 
     transition: color var(--transition-duration-func);
+         
+    &:hover,
+         &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.contact-phone-number:hover,
-.contact-phone-number:focus {
-    color: var(--accent-color);
-}

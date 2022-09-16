@@ -12,9 +12,7 @@
 }
 
 .advantages-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %display;
     margin-bottom: 30px;
     background: #F5F4FA;
     border-radius: 4px;
